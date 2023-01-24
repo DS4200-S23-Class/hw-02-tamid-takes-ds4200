@@ -1,0 +1,49 @@
+body {
+  font-family: Arial;
+  justify-content: center;
+}
+
+h1{
+  text-align: center;}
+
+
+h3{
+  text-align: center;
+}
+
+ul{display: inline-block; text-align: left;}
+
+svg{padding:25px 25px 25px 25px;
+filter: brightness(100%);
+width: 12%; height: auto;}
+
+.shape:hover{
+filter: brightness(50%);
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  row-gap: 15px;
+  align-content: space-around;
+  align-items: center;
+  padding: 10px;
+
+}
+
+.box{
+  width: 40%;
+  height: 40%;
+  border: 10px solid blueviolet;
+  }
+
+  .image{
+    width: 100%;
+  }
+
+
+  .shape-flex-container{
+    display: flex;
+  }
+}
