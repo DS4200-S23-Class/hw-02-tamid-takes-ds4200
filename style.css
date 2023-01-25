@@ -28,5 +28,20 @@ body {
     max-width: 150%;
 }
 
+rect {
+    fill: #6666cc; 
+    stroke: #9966ff; 
+    stroke-width: 4
+}
+
+rect:hover {
+    fill: #BABABA;
+}
+
+circle:hover {
+    stroke: #9966FF;
+    stroke-width: 4px;
+}  
+
 
 ul{display: inline-block; text-align: left;}
