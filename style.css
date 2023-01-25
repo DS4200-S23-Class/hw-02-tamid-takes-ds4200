@@ -15,14 +15,14 @@ body {
   display: flex;
 }
 
-.row {
+.col {
   width: 16rem;
   margin: auto;
   align-items: center;
   justify-content: center;
 }
 
-.row img {
+.col img {
     max-width: 150%;
 }
 
