@@ -11,6 +11,12 @@ body {
     color: white;
 }
 
+table {
+    width: 100%;
+    text-align: center;
+    table-layout: fixed;
+}
+
 .flex {
   display: flex;
 }
