@@ -21,8 +21,8 @@
         <!-- Add a div with the class "info". -->
         <div class="info">
             <!-- Add a centered header: "HTML+CSS & Marks+Channels".-->
-            <h1>Data Types</h1>
-            <!-- Add a table with a blue header row. -->
+            <h1>Dataset Types</h1>
+            <!-- Add a table with Dataset info. -->
             <table>
                 <tr>
                     <th>Data</th>
@@ -31,19 +31,84 @@
                 </tr>
                 <tr>
                     <td>UFO</td>
-                    <td>Airports</td>
-                    <td>Google-Web</td>
+                    <td><link href="data/UFO.csv" rel="import" /></td>
+                    <td>Table</td>
                 </tr>
                 <tr>
-                    <td>insert link</td>
-                    <td>insert link</td>
-                    <td>insert link</td>
+                    <td>Airports</td>
+                    <td><link href="data/Airports.csv" rel="import" /></td>
+                    <td>Table</td>
+                </tr>
+                <tr>
+                    <td>Google-Web</td>
+                    <td><link href="data/Google-Web.txt" rel="import" /></td>
+                    <td>Tree</td>
                 </tr>
             </table>
         </div>
+
+        <!--Add another div with the id "task-abstraction"-->
+        <div id="task-abstraction">
+            <!--add centered header "Task Abstraction"-->
+            <h1>Task Abstraction</h1>
+            <!--Use [flexbox] css to make two columns-->
+
+        </div>
+
+        <!--Add another div with the class "info"-->
+        <div class="info">
+            <h1>Data Types</h1>
+
+            <!--Under the header, add an unordered list that lists 
+                the datatype of the columns and rows in the dataset. 
+                For any datasets that include attributes, 
+                list the attributes and their types as sub points in the list.-->
+            <h2>UFO</h2>
+            <ul style="list-style-type:circle">
+                <li>Row Data Type: Items</li>
+                <li>Column Types: attributes</li>
+                    <li>Column 1; datetime: ordinal, sequential</li>
+                    <li>Column 2; city: categorical</li>
+                    <li>Column 2; state: categorical</li>
+                    <li>Column 2; country: categorical</li>
+                    <li>Column 2; shape: categorical</li>
+                    <li>Column 2; duration (seconds): quantitative</li>
+            </ul>
+
+            <h2>Airports</h2>
+            <ul style="list-style-type:circle">
+                <li>Row Data Type: Items</li>
+                <li>Column 1; airport_name: categorical</li>
+                <li>Column 2; latitude: position</li>
+                <li>Column 2; longitude: position</li>
+            </ul>
+
+            <h2>Google-Web</h2>
+            <ul style="list-style-type:circle">
+                <li>Row Data Type: Link</li>
+            </ul>
+        </div>
     </div>
 
+<!--Add a div with the id "decoration"-->
+<div id="decoration">
+    <!--Add a row of evenly spaced, alternating, circles and rectagles-->
 
+</div>
+
+<!--Add a centered header to the bottom of your page. 
+    The header should say "Acknowledgements"-->
+<h3>Acknowledgements</h3>
+<div>
+    <ul>
+        <li>https://www.w3schools.com/html/html_elements.asp</li>
+        <li>https://www.w3schools.com/html/html_table_headers.asp</li>
+        <li>https://www.naukri.com/learning/articles/html-tables-tutorial-with-examples/</li>
+        <li>https://www.w3schools.com/graphics/svg_intro.asp</li>
+        <li>https://www.w3schools.com/tags/att_link_rel.asphttps://www.w3schools.com/tags/att_link_rel.asp</li>
+        <li>https://www.w3schools.com/html/html_lists.asp</li>
+    </ul>
+</div>
 </body>
 
 </html>
