@@ -2,12 +2,31 @@ body {
     font-family: Arial;
 }
 
-h1 {
+.centered {
     text-align: center;
 }
 
-h3 {
-    text-align: center;
+.table-header {
+    background: blue;
+    color: white;
 }
+
+.flex {
+  display: flex;
+  height: 24rem; /* Or whatever */
+}
+
+.row {
+  width: 16rem;
+  height: 24rem;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.row img {
+    max-width: 150%;
+}
+
 
 ul{display: inline-block; text-align: left;}
